@@ -38,7 +38,7 @@ here's a table of all the possible prices
 
 
 # does streamforthepeople take a cut?
-yes, 15% of subscription fees and 5% of donations (see philosophy for a justification), also note that this is on top of [payment processing fees from stripe](https://stripe.com/pricing)
+yes, 15% of subscription fees and 5% of donations (see [philosophy](https://github.com/streamforthepeople/philosophy#streamforthepeoples-cut) for a justification), also note that this is on top of [payment processing fees from stripe](https://stripe.com/pricing)
 
 # will i have to stop using my existing payment portals?
 hell no, streamforthepeople is primarily a service *for streamers*, and the payment portals available through it are meant to offer audiences benefits specifically tied to the stream, and are tightly integrated into the website, and the cuts reflect that integration; alternative payment/donation/subscriptions links can be freely presented anywhere on the site (in menu and in tiles) ...
