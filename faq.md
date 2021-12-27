@@ -1,9 +1,10 @@
-# what are the subscription benefits
+# what are the subscription benefits?
 - **tier 1**: sock replay/lookup (view history)
 - **tier 2**: chat, mute/ban, lookup (view history), hide badges (obscure presence), and all lower tier benefits
 - **tier 3**: alias (obscure presence), and all lower tier benefits
 - **tier 4**: random username (obscure presence), and all lower tier benefits
 - **tier 5**: never write logs + delete logs (destroy history), and all lower tier benefits
+TODO: explain all these in detail and why they exist on subsequent tiers (they roughly correlate to the work/compute/cost neccesary to support the feature)
 
 # how much do subscriptions cost?
 here's the relavent code which generates subscription prices
