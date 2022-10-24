@@ -1,0 +1,165 @@
+all features are generally available unless marked with "**(coming soon)**"
+
+# stream management
+- create chats
+    - streams can have multiple independent chats with their own configuration (emotes, bot config, etc.)
+    - chats can be public or private; private access can be granted to users by chat owners
+- remove chats
+    - removes chat's entire history of events
+- set chat order
+    - specifies the order public chats are presented in the frontend
+- frontend config management
+    - control site colors, live stream embeds, header links, and username colors
+        - can trivially emulate the look of WhiteLe.af and DGG style sites, see
+            - fake DGG @ https://fakedgg.com **(coming soon)**
+            - fake VGG @ https://fakevgg.com **(coming soon)**
+    - configs can be easily edited, swapped between, and previewed
+- set domain
+    - control custom domain for your streamer website
+    - no cert management required
+- blob management **(coming soon)**
+    - control non-emote images on the site (logo, panels, etc.)
+    - **development status**
+        - backend complete
+        - frontend pending
+- subscription/donation responses **(coming soon)**
+    - stream owners can make explicit responses to subscriptions and donations
+        - enables the automatic tagging of subs/donos with a timestamped url to the point in stream where it was addressed
+    - **development status**
+        - backend complete
+        - frontend pending
+- get subscriptions **(coming soon)**
+    - fetch and filter subscriptions
+    - **development status**
+        - backend complete
+        - frontend pending **(next on my plate)**
+- get subscription payments **(coming soon)**
+    - fetch and filter stripe subscription payments
+    - **development status**
+        - backend complete
+        - frontend pending
+- get donations **(coming soon)**
+    - fetch and filter donations
+    - **development status**
+        - backend complete
+        - frontend pending **(next on my plate)**
+
+# chat management
+- open/close chats
+    - when chats are closed, all connected users are kicked out, and the chat can no longer be connected to
+        - enables streamers to completely avoid the externalities of an "offline" chat
+        - enables streamers to have a separate dedicated "offline" chat
+- moderator managment
+    - add/remove moderators
+- modify profile
+    - grant access to private chats
+    - chat tokens, chat token refresh delay **(coming soon)**
+- mute, unmute, ban, unban
+    - multiple targets
+    - text search targeting (e.g. ban everyone who said the c word)
+- emote management
+    - can require arbitrary badges to post (e.g. requires tier 2 sub + vip)
+    - can be deactivated without deletion
+    - schedule **(coming soon)**
+        - automatically swap emotes per day (e.g. all emotes become halloween themed in October)
+        - **development status**
+            - backend complete
+            - frontend pending
+- polls
+    - support for multiple voting systems
+        - [first past the post](https://en.wikipedia.org/wiki/First-past-the-post_voting)
+        - [approval](https://en.wikipedia.org/wiki/Approval_voting)
+        - [instant runoff (ranked choice)](https://en.wikipedia.org/wiki/Instant-runoff_voting)
+    - get poll history + republish poll results **(coming soon)**
+        - **development status**
+            - backend complete
+            - frontend pending
+- logs
+    - fetch and filter chat messages
+    - multiple targets
+- bot config
+    - automatically mute/ban linkers or specified phrases
+    - phrases can be deactivated without deletion
+- set badges **(coming soon)**
+    - add custom badges
+    - **development status**
+        - backend complete
+        - frontend pending
+- targeted events **(coming soon)**
+    - fetch mutes, bans, etc.
+    - **development status**
+        - backend complete
+        - frontend pending
+- delete logs **(coming soon)**
+    - targeted deletion of chat messages
+    - **development status**
+        - backend partially complete
+        - frontend pending
+
+# self management
+- subscribe
+- gift subscriptions
+    - multiple targets
+    - random gifts **(coming soon)**
+        - **development status**
+            - backend partially complete **(next on my plate)**
+            - frontend complete
+- donate
+- get/cancel subscriptions **(coming soon)**
+    - fetch subscription history and cancel/reactivate current subscription
+    - **development status**
+        - backend complete
+        - frontend pending
+- get subscription payments **(coming soon)**
+    - fetch stripe subscriptions payments
+    - **development status**
+        - backend complete
+        - frontend pending
+- get donations **(coming soon)**
+    - fetch donation history
+    - **development status**
+        - backend complete
+        - frontend pending
+- modify profile **(coming soon)**
+    - hide badges **(coming soon)**
+        - **development status**
+            - backend complete
+            - frontend pending
+    - alias **(coming soon)**
+        - **development status**
+            - backend complete
+            - frontend pending
+    - random username **(coming soon)**
+        - anonymity in chat
+            - u r still targetable (can be muted/banned/logged), but only temporarily
+        - **development status**
+            - backend complete
+            - frontend pending
+- get chat sock **(coming soon)**
+    - fetch historical chat event stream
+        - enables easy replay for vods and clips
+    - **development status**
+        - backend complete
+        - frontend pending
+- get chat logs **(coming soon)**
+    - fetch and filter chat messages
+    - multiple targets
+    - **development status**
+        - backend complete
+        - frontend pending
+- get targeted events **(coming soon)**
+    - fetch and filter mutes, bans, etc.
+    - multiple targets
+    - **development status**
+        - backend complete
+        - frontend pending
+- get polls **(coming soon)**
+    - fetch and filter historical polls (and their results)
+    - **development status**
+        - backend complete
+        - frontend pending
+- delete logs **(coming soon)**
+    - targeted deletion of chat messages
+    - **development status**
+        - backend partially complete
+        - frontend pending
