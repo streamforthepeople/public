@@ -11,8 +11,8 @@ all features are generally available unless marked with "**(coming soon)**"
 - frontend config management
     - control site colors, live stream embeds, header links, and username colors
         - can trivially emulate the look of WhiteLe.af and DGG style sites, see
-            - fake DGG @ https://fakedgg.com **(coming soon)**
-            - fake VGG @ https://fakevgg.com **(coming soon)**
+            - fake DGG @ https://fakedgg.com
+            - fake VGG @ https://fakevgg.com
     - configs can be easily edited, swapped between, and previewed
 - set domain
     - control custom domain for your streamer website
