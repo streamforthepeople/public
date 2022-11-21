@@ -9,19 +9,31 @@ all features are generally available unless marked with "**(coming soon)**"
 - set chat order
     - specifies the order public chats are presented in the frontend
 - frontend config management
-    - control site colors, live stream embeds, header links, and username colors
-        - can trivially emulate the look of WhiteLe.af and DGG style sites, see
-            - fake DGG @ https://fakedgg.com
-            - fake VGG @ https://fakevgg.com
+    - logo
+    - favicon
+    - seo
+        - title
+        - description
+        - keywords coming soon
+    - site colors
+    - live stream embeds
+        - twitch
+            - mirror twitch chat
+        - youtube
+            - chat mirroring coming soon
+        - plans to add facebook, tiktok, etc.
+    - header links
+        - support for nested groups
+    - username colors
+    - can trivially emulate the look of WhiteLe.af and DGG style sites, see
+        - fake DGG @ https://fakedgg.com
+        - fake VGG @ https://fakevgg.com
     - configs can be easily edited, swapped between, and previewed
 - set domain
     - control custom domain for your streamer website
-    - no cert management required
-- blob management **(coming soon)**
-    - control non-emote images on the site (logo, panels, etc.)
-    - **development status**
-        - backend complete
-        - frontend pending
+        - cert management included
+- blob management
+    - control non-emote images on the site (logo, favicon, panels, etc.)
 - subscription/donation responses **(coming soon)**
     - stream owners can make explicit responses to subscriptions and donations
         - enables the automatic tagging of subs/donos with a timestamped url to the point in stream where it was addressed
