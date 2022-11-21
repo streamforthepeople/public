@@ -117,11 +117,8 @@ all features are generally available unless marked with "**(coming soon)**"
             - backend partially complete **(next on my plate)**
             - frontend complete
 - donate
-- get/cancel subscriptions **(coming soon)**
+- get/cancel subscriptions
     - fetch subscription history and cancel/reactivate current subscription
-    - **development status**
-        - backend complete
-        - frontend pending
 - get subscription payments **(coming soon)**
     - fetch stripe subscriptions payments
     - **development status**
