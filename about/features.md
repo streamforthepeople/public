@@ -20,14 +20,14 @@ all features are generally available unless marked with "**(coming soon)**"
         - twitch
             - mirror twitch chat
         - youtube
-            - chat mirroring coming soon
+            - mirror youtube chat
         - plans to add facebook, tiktok, etc.
     - header links
         - support for nested groups
     - username colors
     - can trivially emulate the look of WhiteLe.af and DGG style sites, see
-        - fake DGG @ https://fakedgg.com
         - fake VGG @ https://fakevgg.com
+        - fake DGG @ https://fakedgg.com
     - configs can be easily edited, swapped between, and previewed
 - set domain
     - control custom domain for your streamer website
@@ -63,6 +63,7 @@ all features are generally available unless marked with "**(coming soon)**"
         - enables streamers to have a separate dedicated "offline" chat
 - moderator managment
     - add/remove moderators
+    - granular moderation permission control planned
 - modify profile
     - grant access to private chats
     - chat tokens, chat token refresh delay **(coming soon)**

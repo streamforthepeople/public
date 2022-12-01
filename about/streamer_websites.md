@@ -1,0 +1,3 @@
+# what is a streamer website
+
+The canonical (see [history](../history.md)) "streamer website" has three necessary components, a video stream, a live chat, and a payment portal. These components suffice to facilitate an exchange between streamers and their viewers, where streamers stream (i.e. send) their content to their viewers and their viewers pay them for the contents. Critically, the live chat enables essentially instant synchronous communication between streamers and their viewers
