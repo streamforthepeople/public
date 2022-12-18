@@ -34,6 +34,8 @@ all features are generally available unless marked with "**(coming soon)**"
         - cert management included
 - blob management
     - control non-emote images on the site (logo, favicon, panels, etc.)
+- get subscription payments
+    - fetch and filter stripe subscription payments
 - subscription/donation responses **(coming soon)**
     - stream owners can make explicit responses to subscriptions and donations
         - enables the automatic tagging of subs/donos with a timestamped url to the point in stream where it was addressed
@@ -42,11 +44,6 @@ all features are generally available unless marked with "**(coming soon)**"
         - frontend pending
 - get subscriptions **(coming soon)**
     - fetch and filter subscriptions
-    - **development status**
-        - backend complete
-        - frontend pending **(next on my plate)**
-- get subscription payments **(coming soon)**
-    - fetch and filter stripe subscription payments
     - **development status**
         - backend complete
         - frontend pending
