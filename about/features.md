@@ -36,6 +36,8 @@ all features are generally available unless marked with "**(coming soon)**"
     - control non-emote images on the site (logo, favicon, panels, etc.)
 - get subscription payments
     - fetch and filter stripe subscription payments
+- get donations
+    - fetch and filter donations
 - subscription/donation responses **(coming soon)**
     - stream owners can make explicit responses to subscriptions and donations
         - enables the automatic tagging of subs/donos with a timestamped url to the point in stream where it was addressed
@@ -47,11 +49,6 @@ all features are generally available unless marked with "**(coming soon)**"
     - **development status**
         - backend complete
         - frontend pending
-- get donations **(coming soon)**
-    - fetch and filter donations
-    - **development status**
-        - backend complete
-        - frontend pending **(next on my plate)**
 
 # chat management
 - open/close chats
