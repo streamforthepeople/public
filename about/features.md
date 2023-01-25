@@ -21,13 +21,13 @@ all features are generally available unless marked with "**(coming soon)**"
             - mirror twitch chat
         - youtube
             - mirror youtube chat
-        - plans to add facebook, tiktok, etc.
+        - plans to add facebook, tiktok, rumble, etc.
     - header links
         - support for nested groups
     - username colors
     - can trivially emulate the look of WhiteLe.af and DGG style sites, see
-        - fake VGG @ https://fakevgg.com
-        - fake DGG @ https://fakedgg.com
+        - fake https://vaush.gg @ https://fakevgg.com
+        - fake https://destiny.gg @ https://fakedgg.com
     - configs can be easily edited, swapped between, and previewed
 - set domain
     - control custom domain for your streamer website
@@ -87,6 +87,8 @@ all features are generally available unless marked with "**(coming soon)**"
 - bot config
     - automatically mute/ban linkers or specified phrases
     - phrases can be deactivated without deletion
+- delete logs
+    - targeted deletion of chat messages
 - set badges **(coming soon)**
     - add custom badges
     - **development status**
@@ -96,11 +98,6 @@ all features are generally available unless marked with "**(coming soon)**"
     - fetch mutes, bans, etc.
     - **development status**
         - backend complete
-        - frontend pending
-- delete logs **(coming soon)**
-    - targeted deletion of chat messages
-    - **development status**
-        - backend partially complete
         - frontend pending
 
 # self management
@@ -114,16 +111,17 @@ all features are generally available unless marked with "**(coming soon)**"
 - donate
 - get/cancel subscriptions
     - fetch subscription history and cancel/reactivate current subscription
-- get subscription payments **(coming soon)**
+- get subscription payments
     - fetch stripe subscriptions payments
-    - **development status**
-        - backend complete
-        - frontend pending
-- get donations **(coming soon)**
-    - fetch donation history
-    - **development status**
-        - backend complete
-        - frontend pending
+- get donations
+    - fetch donation payments
+- get chat logs
+    - requires tier >=2 subscription
+    - fetch and filter chat messages
+    - multiple targets
+- delete logs
+    - requires tier >=5 subscription
+    - targeted deletion of chat messages
 - modify profile **(coming soon)**
     - hide badges **(coming soon)**
         - **development status**
@@ -145,12 +143,6 @@ all features are generally available unless marked with "**(coming soon)**"
     - **development status**
         - backend complete
         - frontend pending
-- get chat logs **(coming soon)**
-    - fetch and filter chat messages
-    - multiple targets
-    - **development status**
-        - backend complete
-        - frontend pending
 - get targeted events **(coming soon)**
     - fetch and filter mutes, bans, etc.
     - multiple targets
@@ -161,9 +153,4 @@ all features are generally available unless marked with "**(coming soon)**"
     - fetch and filter historical polls (and their results)
     - **development status**
         - backend complete
-        - frontend pending
-- delete logs **(coming soon)**
-    - targeted deletion of chat messages
-    - **development status**
-        - backend partially complete
         - frontend pending
