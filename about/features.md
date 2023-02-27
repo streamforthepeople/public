@@ -116,27 +116,25 @@ all features are generally available unless marked with "**(coming soon)**"
 - get donations
     - fetch donation payments
 - get chat logs
-    - requires tier >=2 subscription
     - fetch and filter chat messages
     - multiple targets
+    - requires tier >=2 subscription
 - delete logs
-    - requires tier >=5 subscription
     - targeted deletion of chat messages
-- modify profile **(coming soon)**
-    - hide badges **(coming soon)**
-        - **development status**
-            - backend complete
-            - frontend pending
-    - alias **(coming soon)**
-        - **development status**
-            - backend complete
-            - frontend pending
-    - random username **(coming soon)**
-        - anonymity in chat
-            - u r still targetable (can be muted/banned/logged), but only temporarily
-        - **development status**
-            - backend complete
-            - frontend pending
+    - requires tier >=5 subscription
+- modify profile
+    - hide badges
+        - select badges to hide
+        - requires tier >=2 subscription
+    - alias
+        - change in-chat username any time
+        - requires tier >=3 subscription
+    - random username
+        - limited anonymity in chat; u r still targetable (can be muted/banned/logged), but only temporarily
+        - requires tier >=4 subscription
+    - don't write logs
+        - none of your chat messages are logged
+        - requires tier >=5 subscription
 - get chat sock **(coming soon)**
     - fetch historical chat event stream
         - enables easy replay for vods and clips
