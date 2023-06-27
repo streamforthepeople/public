@@ -89,6 +89,10 @@ all features are generally available unless marked with "**(coming soon)**"
     - phrases can be deactivated without deletion
 - delete logs
     - targeted deletion of chat messages
+- pin chats
+    - optional anonymity
+    - customize duration
+    - multiple
 - set badges **(coming soon)**
     - add custom badges
     - **development status**
