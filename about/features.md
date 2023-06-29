@@ -31,7 +31,7 @@ all features are generally available unless marked with "**(coming soon)**"
     - configs can be easily edited, swapped between, and previewed
 - set domain
     - control custom domain for your streamer website
-        - cert management included
+        - https certificate management included
 - blob management
     - control non-emote images on the site (logo, favicon, panels, etc.)
 - get subscription payments
@@ -110,8 +110,8 @@ all features are generally available unless marked with "**(coming soon)**"
     - multiple targets
     - random gifts **(coming soon)**
         - **development status**
-            - backend partially complete **(next on my plate)**
-            - frontend complete
+            - backend complete
+            - frontend partially complete
 - donate
 - get/cancel subscriptions
     - fetch subscription history and cancel/reactivate current subscription
