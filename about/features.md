@@ -93,6 +93,12 @@ all features are generally available unless marked with "**(coming soon)**"
     - optional anonymity
     - customize duration
     - multiple
+- censor chats
+    - granular options
+        - allow uncensoring
+        - include signature
+        - signature only
+        - remove
 - set badges **(coming soon)**
     - add custom badges
     - **development status**
