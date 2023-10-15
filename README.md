@@ -7,7 +7,7 @@
 
 ## what is a streamer website
 
-The canonical (see [history](../history.md)) "streamer website" has three necessary components: a video stream, a live chat, and a payment portal. These components suffice to facilitate an exchange between streamers and their viewers, where streamers stream (i.e. send) their content to their viewers and their viewers pay them for the contents, all while streamers and viewers alike can synchronously communicate through the live chat.
+The canonical (see [history](history.md)) "streamer website" has three necessary components: a video stream, a live chat, and a payment portal. These components suffice to facilitate an exchange between streamers and their viewers, where streamers stream (i.e. send) their content to their viewers and their viewers pay them for the contents, all while streamers and viewers alike can synchronously communicate through the live chat.
 
 Critically, because the streamer website is entirely operated (TODO: philosophy section: what is operation ?) by the streamer (or their delegates), both streamers and viewers can avoid the large fees that live streaming platforms take for hosting the required services, brokering the exchange, etc.. Historically, the operation of a streamer website has had an oppressively high barrier to entry; that is, although there exists streamers who would benefit from this platform decoupling (TODO: link to decoupling section in philosophy), they did not have the resources to reliably operate a service which would suffice to actually decouple them.
 
